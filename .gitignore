@@ -1,0 +1,3 @@
+/warehouse/data/cache/*.serial
+/warehouse/data/logs/*
+/warehouse/data/Smarty/templates_c/*

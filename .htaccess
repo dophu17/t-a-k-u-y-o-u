@@ -1,0 +1,18 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+## begin basic auth
+# AuthName "the protected directory"
+# AuthType Basic
+# AuthUserFile /usr/home/mw2pcag9g5/www//htdocs/dev/.htpasswd
+# Require valid-user
+## end basic auth
